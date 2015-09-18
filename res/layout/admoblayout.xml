@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+   <TextView
+        android:id="@+id/headerDate"
+        android:layout_width="match_parent"
+        
+        android:layout_height="50dp"
+        android:background="@android:color/white"
+        android:text="Foot TV"
+         android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:fontFamily="sans-serif-thin"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/black" />
+    
+    <com.google.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        ads:adUnitId="a150ca71fc9c817"
+        ads:loadAdOnCreate="true" />
+        <!-- ads:testDevices="TEST_EMULATOR,393363FBD1EB00EC,009CE41EBE980314F5D2EAA83FE2503F,888F5446CC1D4A89EA5D8E99E70D38FB" />-->  
+
+</FrameLayout>

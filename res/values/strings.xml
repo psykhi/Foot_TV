@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="app_name">Foot TV</string>
+    <string name="title_section4">Prochainement</string>
+    <string name="title_section3">Après-demain</string>
+    <string name="title_section2">Demain</string>
+    <string name="title_section1">Aujourd\'hui</string>
+    <string name="hello_world">Demain</string>
+    <string name="menu_settings">Réglages</string>
+    <string name="title_activity_main">Foot TV</string>
+    <string name="title_activity_settings">Réglages</string>
+    <string name="title_activity_follow">Matchs suivis</string>
+    <string name="title_activity_tutorial">Tutorial</string>
+    <string name="title_activity_search">Recherche</string>
+    <string name="search_hint">Equipe</string>
+    <string name="app_label">footao</string>
+    <string name="date">Date</string>
+    <string name="followed">Suivis</string>
+    <string name="trending">A suivre</string>
+    <string name="contact_developer_uri">mailto:kreggysoft@gmail.com</string>
+    <string name="tuto">Tutorial Foot TV!</string>
+    <string name="firstStartTitle">Bienvenue !</string>
+    <string name="firstStartText">  Foot TV vous propose les matchs télévisés pour la semaine à venir
+            et vous permet d\'ajouter à votre calendrier des rappels pour suivre les matchs que vous tenez à voir ! \n  N\'hésitez pas à suivre le tutorial pour tout savoir de Foot TV!
+            </string>
+
+</resources>

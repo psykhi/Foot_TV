@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" >
+
+    <PreferenceCategory android:title="Notifications" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="addToCalendar"
+            android:summary="Ouvre le calendrier lorsqu&apos;un match est suivi."
+            android:title="Ajouter au calendrier" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Programmes" >
+        <PreferenceScreen
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:title="Chaînes à afficher" >
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="beinsport"
+                android:summary="Toutes les chaînes du groupe BeIN"
+                android:title="beIN SPORT 1,2 et MAX" >
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="tf1"
+                android:title="TF1" >
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="francetv"
+                android:summary="France 2,3,4 et Ô"
+                android:title="France TV" >
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="canalplus"
+                android:title="Canal +" >
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="canalsport"
+                android:title="Canal + Sport" >
+                </CheckBoxPreference>
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="sportplus"
+                android:title="Sport +" >
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="eurosport"
+                android:title="Eurosport" >
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="eurosport2"
+                android:title="Eurosport 2" >
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="omtv"
+                android:title="OM TV" >
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="oltv"
+                android:title="OL TV" >
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="girondinstv"
+                android:title="Girondins TV" >
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="footplus"
+                android:title="Foot +" >
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="machainesport"
+                android:title="Ma Chaîne Sport" >
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="tv8montblanc"
+                android:title="OM TV" >
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="onzeo"
+                android:title="Onzéo" >
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="w9"
+                android:title="W9" >
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="d8"
+                android:title="D8" >
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="d17"
+                android:title="D17" >
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="nt1"
+                android:title="NT1" >
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="tlt"
+                android:title="TLT" >
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="fff"
+                android:title="FFF" >
+            </CheckBoxPreference>
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Feedback" >
+        <Preference
+            android:key="devFeedback"
+            android:summary="Faites part de vos bugs/suggestions au développeur"
+            android:title="Ecrire un mail au développeur" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/contact_developer_uri" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Appli Premium" >
+        <Preference
+            android:key="removeAds"
+            android:summary="Enlever toutes les publicités de l&apos;application"
+            android:title="Enlever les pubs!" >
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

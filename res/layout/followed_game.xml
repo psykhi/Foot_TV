@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp" >
+
+    <TextView
+        android:id="@+id/followedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="YYYY-MM-DD" />
+
+    <TextView
+        android:id="@+id/followedGameHomeTeam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/followedDate"
+        android:layout_centerHorizontal="true"
+        android:text="Home Team"
+        android:textColor="@android:color/black"
+        android:textSize="19dp" />
+
+    <TextView
+        android:id="@+id/followedTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="28dp"
+        android:text="00:00"
+        android:textColor="@android:color/darker_gray" />
+
+    <ImageView
+        android:id="@+id/followedCannelImage"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="14dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/followedGameAwayTeam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vsTextView"
+        android:layout_centerHorizontal="true"
+        android:text="Away Team "
+        android:textColor="@android:color/black"
+        android:textSize="19dp" />
+
+    <TextView
+        android:id="@+id/vsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/followedGameHomeTeam"
+        android:layout_centerHorizontal="true"
+        android:text="vs"
+        android:textColor="@android:color/darker_gray" />
+
+    <Switch
+        android:id="@+id/followScreenSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/followedGameAwayTeam"
+        android:layout_centerHorizontal="true"
+        android:checked="true"
+        android:text="Suivre"
+        android:textOff="Non"
+        android:textOn="Oui" />
+
+</RelativeLayout>
